@@ -511,10 +511,7 @@ This project successfully demonstrates a multi-model Deep Learning system for:
 The project combines discriminative and generative AI models to support digital cultural heritage preservation.
 
 ---
-
-# Author
-
-Ali Hazim  
+# Done by
 Egyptian Chinese University (ECU)  
 Faculty of Engineering  
 Software Engineering Department
