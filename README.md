@@ -446,7 +446,62 @@ pip install -r requirements.txt
 
 # Main Scripts
 
+## Test Recognition Pipeline
+
+This script tests the complete Egyptian artifact recognition pipeline on a real artifact image.
+
+The script:
+- loads the artifact image
+- extracts DINOv2 embeddings
+- compares image embeddings with stored artifact embeddings
+- predicts the most similar artifact
+- displays similarity confidence results
+
+Run:
+
+```bash
+python -m app.scripts.test_pipeline_direct app/data/artifacts/images/artifact_001/<image_name>
+```
+
+Example:
+
+```bash
+python -m app.scripts.test_pipeline_direct app/data/artifacts/images/artifact_001/01.jpg
+```
+
+---
+
+## Evaluate Recognition System
+
+This script evaluates the overall artifact recognition system performance.
+
+The script:
+- tests artifact retrieval performance
+- computes Top-1 accuracy
+- computes Top-3 accuracy
+- evaluates embedding similarity matching
+- generates recognition evaluation summaries
+
+Run:
+
+```bash
+python -m app.scripts.evaluate_recognition
+```
+
+---
+
 ## Train Classifier
+
+This script trains the neural network classifier using DINOv2 embeddings.
+
+The script:
+- loads artifact embeddings
+- trains the classification model
+- saves trained model weights
+- generates learning curves
+- stores classification outputs
+
+Run:
 
 ```bash
 python -m app.scripts.train_classifier_optionA
@@ -456,6 +511,24 @@ python -m app.scripts.train_classifier_optionA
 
 ## Evaluate Classification Metrics
 
+This script evaluates the trained classification model performance.
+
+The script computes:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
+- Cohen Kappa
+- Matthews Correlation Coefficient (MCC)
+
+It also generates:
+- confusion matrix
+- classification report
+- metric summaries
+
+Run:
+
 ```bash
 python -m app.scripts.evaluate_classifier_metrics
 ```
@@ -463,6 +536,18 @@ python -m app.scripts.evaluate_classifier_metrics
 ---
 
 ## Evaluate Stable Diffusion Results
+
+This script evaluates the generated Stable Diffusion reconstruction outputs against target images.
+
+The script computes:
+- MAE
+- MAPE
+- RMSE
+- R²
+- PSNR
+- SSIM
+
+Run:
 
 ```bash
 python -m app.scripts.evaluate_stable_diffusion_results
@@ -472,6 +557,22 @@ python -m app.scripts.evaluate_stable_diffusion_results
 
 ## Evaluate Restoration Regression
 
+This script evaluates the overall restoration and reconstruction regression performance.
+
+The script compares:
+- restored artifact images
+- reference target images
+
+The script computes:
+- MAE
+- MAPE
+- RMSE
+- R²
+- PSNR
+- SSIM
+
+Run:
+
 ```bash
 python -m app.scripts.evaluate_restoration_regression
 ```
@@ -480,22 +581,18 @@ python -m app.scripts.evaluate_restoration_regression
 
 ## Measure FLOPs
 
+This script measures the computational complexity of the neural classifier.
+
+The script computes:
+- total parameters
+- trainable parameters
+- estimated multiply-add operations (FLOPs)
+
+Run:
+
 ```bash
 python -m app.scripts.measure_flops
 ```
-
----
-
-# Future Improvements
-
-Possible future enhancements include:
-
-- Fine-tuning Stable Diffusion specifically for Egyptian artifacts
-- Increasing dataset size
-- Adding segmentation models
-- Improving reconstruction realism
-- Building real-time deployment APIs
-- Integrating 3D reconstruction
 
 ---
 
