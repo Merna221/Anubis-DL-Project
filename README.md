@@ -158,7 +158,7 @@ Images were grouped into:
 
 ## Overview
 
-DINOv2 is used as a pretrained visual feature extractor.
+DINOv2 is used as a visual feature extractor.
 
 The model generates high-dimensional embeddings representing artifact features.
 
@@ -328,7 +328,7 @@ Stable Diffusion generated visually plausible artifact reconstructions.
 
 Some generated images deviated from target references because:
 - the model was not fine-tuned specifically for Egyptian artifacts
-- reconstruction relied on general pretrained diffusion knowledge
+- reconstruction relied on general diffusion knowledge
 
 Despite this, the model successfully demonstrated generative restoration capabilities.
 
