@@ -1,0 +1,209 @@
+{
+  "total_pairs": 18,
+  "average_mae": 0.3303941786289215,
+  "average_safe_mape": 78.78760695457458,
+  "average_rmse": 0.43862706422805786,
+  "average_r2": -0.44830167293548584,
+  "average_psnr": 8.446352959809952,
+  "average_ssim": 0.26505762266202104,
+  "details": [
+    {
+      "artifact_id": "artifact_001",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_001\\input\\01.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_001\\target\\01.png",
+      "mae": 0.238750621676445,
+      "safe_mape": 94.53136920928955,
+      "rmse": 0.3004165291786194,
+      "r2": 0.12121820449829102,
+      "psnr": 10.44552351501007,
+      "ssim": 0.026342665776610374
+    },
+    {
+      "artifact_id": "artifact_001",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_001\\input\\02.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_001\\target\\02.png",
+      "mae": 0.19407068192958832,
+      "safe_mape": 99.80542659759521,
+      "rmse": 0.28122055530548096,
+      "r2": 0.1010923981666565,
+      "psnr": 11.019058770520601,
+      "ssim": 0.1715572625398636
+    },
+    {
+      "artifact_id": "artifact_002",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_002\\input\\01.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_002\\target\\01.png",
+      "mae": 0.15950140357017517,
+      "safe_mape": 109.40632820129395,
+      "rmse": 0.24029859900474548,
+      "r2": -1.642974615097046,
+      "psnr": 12.384975224478127,
+      "ssim": 0.19960713386535645
+    },
+    {
+      "artifact_id": "artifact_003",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_003\\input\\01.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_003\\target\\01.png",
+      "mae": 0.2187143713235855,
+      "safe_mape": 52.76876091957092,
+      "rmse": 0.27402281761169434,
+      "r2": -0.512844443321228,
+      "psnr": 11.244265447952984,
+      "ssim": 0.23680667579174042
+    },
+    {
+      "artifact_id": "artifact_003",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_003\\input\\02.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_003\\target\\02.png",
+      "mae": 0.3892742097377777,
+      "safe_mape": 111.6716742515564,
+      "rmse": 0.4407351016998291,
+      "r2": -3.712212085723877,
+      "psnr": 7.116447187329954,
+      "ssim": 0.20814450085163116
+    },
+    {
+      "artifact_id": "artifact_004",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_004\\input\\01.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_004\\target\\01.png",
+      "mae": 0.6589946746826172,
+      "safe_mape": 77.12615728378296,
+      "rmse": 0.7033144235610962,
+      "r2": -5.3912153244018555,
+      "psnr": 3.0570095198177203,
+      "ssim": 0.33492207527160645
+    },
+    {
+      "artifact_id": "artifact_005",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_005\\input\\01.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_005\\target\\01.png",
+      "mae": 0.26084983348846436,
+      "safe_mape": 49.73281919956207,
+      "rmse": 0.3875335156917572,
+      "r2": -0.4145430326461792,
+      "psnr": 8.233814634738042,
+      "ssim": 0.30870476365089417
+    },
+    {
+      "artifact_id": "artifact_005",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_005\\input\\02.webp",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_005\\target\\02.png",
+      "mae": 0.2013559490442276,
+      "safe_mape": 70.75325846672058,
+      "rmse": 0.3404092788696289,
+      "r2": -0.17716491222381592,
+      "psnr": 9.359972208708099,
+      "ssim": 0.5023422241210938
+    },
+    {
+      "artifact_id": "artifact_005",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_005\\input\\03.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_005\\target\\03.png",
+      "mae": 0.3417297601699829,
+      "safe_mape": 238.45267295837402,
+      "rmse": 0.4088135361671448,
+      "r2": -4.433989524841309,
+      "psnr": 7.769494655442807,
+      "ssim": 0.11165648698806763
+    },
+    {
+      "artifact_id": "artifact_006",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_006\\input\\01.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_006\\target\\01.png",
+      "mae": 0.3780428469181061,
+      "safe_mape": 49.88409876823425,
+      "rmse": 0.4507608711719513,
+      "r2": -1.9863331317901611,
+      "psnr": 6.921075808669956,
+      "ssim": 0.2738964557647705
+    },
+    {
+      "artifact_id": "artifact_006",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_006\\input\\02.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_006\\target\\02.png",
+      "mae": 0.3598511219024658,
+      "safe_mape": 52.68288254737854,
+      "rmse": 0.44697245955467224,
+      "r2": -2.0907084941864014,
+      "psnr": 6.99438470657419,
+      "ssim": 0.2427874654531479
+    },
+    {
+      "artifact_id": "artifact_007",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_007\\input\\01.png",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_007\\target\\01.png",
+      "mae": 0.07692543417215347,
+      "safe_mape": 23.936305940151215,
+      "rmse": 0.15747174620628357,
+      "r2": 0.701133131980896,
+      "psnr": 16.055947131764427,
+      "ssim": 0.7225456237792969
+    },
+    {
+      "artifact_id": "artifact_007",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_007\\input\\02.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_007\\target\\02.png",
+      "mae": 0.6278663873672485,
+      "safe_mape": 90.31604528427124,
+      "rmse": 0.7127245664596558,
+      "r2": -3.513777732849121,
+      "psnr": 2.94156543037513,
+      "ssim": 0.061775434762239456
+    },
+    {
+      "artifact_id": "artifact_008",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_008\\input\\01.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_008\\target\\01.png",
+      "mae": 0.2177688032388687,
+      "safe_mape": 52.29838490486145,
+      "rmse": 0.2854313254356384,
+      "r2": 0.24056309461593628,
+      "psnr": 10.889967315577804,
+      "ssim": 0.6676416993141174
+    },
+    {
+      "artifact_id": "artifact_009",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_009\\input\\01.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_009\\target\\01.png",
+      "mae": 0.4124184846878052,
+      "safe_mape": 57.13844299316406,
+      "rmse": 0.5185487270355225,
+      "r2": -2.7476136684417725,
+      "psnr": 5.704208550654258,
+      "ssim": 0.1347413808107376
+    },
+    {
+      "artifact_id": "artifact_009",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_009\\input\\02.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_009\\target\\02.png",
+      "mae": 0.45366302132606506,
+      "safe_mape": 58.90173316001892,
+      "rmse": 0.5404051542282104,
+      "r2": -3.253113269805908,
+      "psnr": 5.3456103490994975,
+      "ssim": 0.20467539131641388
+    },
+    {
+      "artifact_id": "artifact_010",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_010\\input\\01.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_010\\target\\01.png",
+      "mae": 0.5615256428718567,
+      "safe_mape": 68.44057440757751,
+      "rmse": 0.6373577117919922,
+      "r2": -4.918303966522217,
+      "psnr": 3.9123351004162177,
+      "ssim": 0.274736613035202
+    },
+    {
+      "artifact_id": "artifact_010",
+      "input_image": "app/data\\reconstruction_pairs\\artifact_010\\input\\02.jpg",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_010\\target\\02.png",
+      "mae": 0.19579081237316132,
+      "safe_mape": 89.83709216117859,
+      "rmse": 0.23338079452514648,
+      "r2": -1.1899497509002686,
+      "psnr": 12.638697719449262,
+      "ssim": 0.08815335482358932
+    }
+  ]
+}

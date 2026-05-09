@@ -1,0 +1,26 @@
+{
+  "artifact_id": "artifact_002",
+  "artifact_name": "Statue of Khafre Enthroned",
+  "input_image": "app/data/reconstruction_pairs/artifact_002/input/01.jpg",
+  "target_image": "app/data/reconstruction_pairs/artifact_002/target/01.png",
+  "reference_images": [
+    "app/data/artifacts/images/artifact_002/f918d282045614b9828c99ccdeb4ed7f.jpg"
+  ],
+  "cropped_input": "app/data/experiments/reconstruction/artifact_002/input/cropped_input.png",
+  "preprocessed_input": "app/data/experiments/reconstruction/artifact_002/input/preprocessed_input.jpg",
+  "full_input_variant": "app/data/experiments/reconstruction/artifact_002/input/full_input_512.png",
+  "full_preprocessed_input_variant": "app/data/experiments/reconstruction/artifact_002/input/full_preprocessed_input.jpg",
+  "clean_target": "app/data/experiments/reconstruction/artifact_002/target/target_512.png",
+  "clean_references": [
+    "app/data/experiments/reconstruction/artifact_002/reference/reference_1.jpg"
+  ],
+  "prompt": "Restore this exact seated statue of Pharaoh Khafre. Keep the same statue, same seated pose, same throne, same camera angle, same black diorite stone, realistic museum-quality artifact photo, clean isolated background, highly detailed, sharp.",
+  "negative_prompt": "different artifact, bust, standing statue, wrong pose, wrong throne, wrong angle, fantasy, cartoon, blur, distortion, extra limbs, museum room, table, people, text, watermark, oversaturated",
+  "primary_input_variant": "full",
+  "notes": "Full input is the default primary version. Cropped input is kept as a secondary variant for future comparison.",
+  "generated_candidates": [],
+  "scores": {},
+  "best_candidate": null,
+  "best_score": null,
+  "final_result": null
+}

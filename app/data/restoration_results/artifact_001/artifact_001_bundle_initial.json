@@ -1,0 +1,13 @@
+{
+  "artifact_id": "artifact_001",
+  "artifact_name": "Mask of Tutankhamun",
+  "input_image": "/kaggle/working/artifact_001/workspace_clean/input/input_01.jpg",
+  "preprocessed_input_image": "/kaggle/working/artifact_001/workspace_clean/input/preprocessed_input_01.jpg",
+  "target_image": "/kaggle/working/artifact_001/workspace_clean/target/target_01.png",
+  "reference_images": [
+    "/kaggle/working/artifact_001/workspace_clean/reference/ref_01.jpg",
+    "/kaggle/working/artifact_001/workspace_clean/reference/ref_02.jpg",
+    "/kaggle/working/artifact_001/workspace_clean/reference/ref_03.jpg"
+  ],
+  "notes": "Kaggle run. No cropping. Prepared clean working copies."
+}

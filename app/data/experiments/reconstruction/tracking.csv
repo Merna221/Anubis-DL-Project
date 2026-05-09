@@ -1,0 +1,3 @@
+artifact_id,artifact_name,input_ready,target_ready,references_ready,prompt_ready,cpu_prep_done,gpu_run_done,best_result_path,bundle_path,notes
+artifact_002,Statue of Khafre Enthroned,yes,yes,yes,yes,yes,no,,app/data/experiments/reconstruction/artifact_002/bundle/bundle.json,CPU prep fully done. Full input is primary. Cropped input kept as optional secondary variant. Waiting for GPU run.
+artifact_004,Anubis Shrine (Jackal Statue),yes,yes,yes,yes,yes,no,,app/data/experiments/reconstruction/artifact_004/bundle/bundle.json,CPU prep done. Full input primary. Two strong references. Ready for GPU.

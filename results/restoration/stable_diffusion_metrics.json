@@ -1,0 +1,56 @@
+{
+  "model": "Stable Diffusion Img2Img",
+  "total_pairs": 4,
+  "average_mae": 0.41233110427856445,
+  "average_safe_mape": 68.63532066345215,
+  "average_rmse": 0.5192549824714661,
+  "average_r2": -0.8509268760681152,
+  "average_psnr": 6.564975322988354,
+  "average_ssim": 0.24985389364883304,
+  "details": [
+    {
+      "artifact_id": "artifact_001",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_001\\target\\01.png",
+      "stable_diffusion_output": "app/data\\reconstruction_pairs\\artifact_001\\stable_diffusion_output\\01.png",
+      "mae": 0.26796388626098633,
+      "safe_mape": 103.06210517883301,
+      "rmse": 0.3292199969291687,
+      "r2": -0.05537271499633789,
+      "psnr": 9.650275869424016,
+      "ssim": 0.022896138951182365
+    },
+    {
+      "artifact_id": "artifact_004",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_004\\target\\01.png",
+      "stable_diffusion_output": "app/data\\reconstruction_pairs\\artifact_004\\stable_diffusion_output\\01.png",
+      "mae": 0.5820271372795105,
+      "safe_mape": 69.02607679367065,
+      "rmse": 0.6549801230430603,
+      "r2": -4.542945861816406,
+      "psnr": 3.675437590506352,
+      "ssim": 0.3543877601623535
+    },
+    {
+      "artifact_id": "artifact_005",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_005\\target\\01.png",
+      "stable_diffusion_output": "app/data\\reconstruction_pairs\\artifact_005\\stable_diffusion_output\\01.png",
+      "mae": 0.22315068542957306,
+      "safe_mape": 45.04304826259613,
+      "rmse": 0.34808939695358276,
+      "r2": -0.14124596118927002,
+      "psnr": 9.166184108556292,
+      "ssim": 0.37404927611351013
+    },
+    {
+      "artifact_id": "artifact_010",
+      "target_image": "app/data\\reconstruction_pairs\\artifact_010\\target\\01.png",
+      "stable_diffusion_output": "app/data\\reconstruction_pairs\\artifact_010\\stable_diffusion_output\\01.png",
+      "mae": 0.5761829018592834,
+      "safe_mape": 70.99912762641907,
+      "rmse": 0.6480370163917542,
+      "r2": -5.118294715881348,
+      "psnr": 3.768003723466755,
+      "ssim": 0.24808239936828613
+    }
+  ]
+}

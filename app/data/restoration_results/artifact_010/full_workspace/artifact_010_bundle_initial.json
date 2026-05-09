@@ -1,0 +1,12 @@
+{
+  "artifact_id": "artifact_010",
+  "artifact_name": "Bust of Nefertiti",
+  "input_image": "/kaggle/working/artifact_010/workspace_clean/input/input_01.jpg",
+  "preprocessed_input_image": "/kaggle/working/artifact_010/workspace_clean/input/preprocessed_input_01.jpg",
+  "target_image": "/kaggle/working/artifact_010/workspace_clean/target/target_01.png",
+  "reference_images": [
+    "/kaggle/working/artifact_010/workspace_clean/reference/ref_01.jpg",
+    "/kaggle/working/artifact_010/workspace_clean/reference/ref_02.jpg"
+  ],
+  "notes": "Kaggle run for artifact_010. Prepared clean working copies."
+}

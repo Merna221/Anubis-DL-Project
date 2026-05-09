@@ -1,0 +1,12 @@
+{
+  "total_images": 83,
+  "num_classes": 10,
+  "input_dim": 384,
+  "epochs": 50,
+  "final_train_accuracy": 1.0,
+  "final_validation_accuracy": 0.9411764705882353,
+  "final_train_loss": 0.010355447418987751,
+  "final_validation_loss": 0.2596864104270935,
+  "training_time_seconds": 1.1455166339874268,
+  "carbon_emissions_kg": 3.7975171443518494e-06
+}

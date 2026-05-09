@@ -1,0 +1,27 @@
+{
+  "artifact_id": "artifact_004",
+  "artifact_name": "Anubis Shrine (Jackal Statue)",
+  "input_image": "app/data/reconstruction_pairs/artifact_004/input/01.jpg",
+  "target_image": "app/data/reconstruction_pairs/artifact_004/target/01.png",
+  "reference_images": [
+    "app/data/artifacts/images/artifact_004/rt.jpg",
+    "app/data/artifacts/images/artifact_004/712PiIud6kL.jpg"
+  ],
+  "cropped_input": "app/data/experiments/reconstruction\\artifact_004\\input\\cropped_input.png",
+  "preprocessed_input": "app/data/experiments/reconstruction\\artifact_004\\input\\preprocessed_input.jpg",
+  "clean_target": "app/data/experiments/reconstruction\\artifact_004\\target\\target_512.png",
+  "clean_references": [
+    "app/data/experiments/reconstruction\\artifact_004\\reference\\reference_1.jpg",
+    "app/data/experiments/reconstruction\\artifact_004\\reference\\reference_2.jpg"
+  ],
+  "prompt": "Restore this exact standing statue of Anubis. Keep the same pose, same proportions, same jackal head, same staff, same gold and black materials, clean museum-quality artifact, highly detailed, sharp, centered, isolated background.",
+  "negative_prompt": "different artifact, wrong pose, seated statue, missing staff, extra limbs, cartoon, blur, distortion, modern style, unrealistic, people, text, watermark, background clutter",
+  "notes": "Two strong references used. Full-body standing Anubis. Clean references for reconstruction.",
+  "generated_candidates": [],
+  "scores": {},
+  "best_candidate": null,
+  "best_score": null,
+  "final_result": null,
+  "full_input_variant": "app/data/experiments/reconstruction\\artifact_004\\input\\full_input_512.png",
+  "full_preprocessed_input_variant": "app/data/experiments/reconstruction\\artifact_004\\input\\full_preprocessed_input.jpg"
+}

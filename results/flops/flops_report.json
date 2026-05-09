@@ -1,0 +1,9 @@
+{
+  "model": "DINOv2 embeddings + Neural Network Classifier",
+  "input_dimension": 384,
+  "num_classes": 10,
+  "total_parameters": 50570,
+  "trainable_parameters": 50570,
+  "estimated_mult_adds": 50570,
+  "note": "FLOPs are estimated for the classifier head only. DINOv2 is used as pretrained feature extractor."
+}

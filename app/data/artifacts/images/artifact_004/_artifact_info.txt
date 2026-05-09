@@ -1,0 +1,5 @@
+Artifact ID: artifact_004
+Name: Anubis Shrine (Jackal Statue)
+Put 3 to 10 images of this exact artifact in this folder.
+Use JPG/PNG/WEBP files only.
+Suggested names: 1.jpg, 2.jpg, 3.jpg

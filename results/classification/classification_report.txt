@@ -1,0 +1,16 @@
+              precision    recall  f1-score   support
+
+artifact_001       1.00      1.00      1.00         1
+artifact_002       0.67      1.00      0.80         2
+artifact_003       0.00      0.00      0.00         1
+artifact_004       1.00      1.00      1.00         2
+artifact_005       1.00      1.00      1.00         2
+artifact_006       1.00      1.00      1.00         2
+artifact_007       1.00      1.00      1.00         2
+artifact_008       1.00      1.00      1.00         2
+artifact_009       1.00      1.00      1.00         2
+artifact_010       1.00      1.00      1.00         1
+
+    accuracy                           0.94        17
+   macro avg       0.87      0.90      0.88        17
+weighted avg       0.90      0.94      0.92        17
