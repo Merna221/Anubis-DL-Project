@@ -466,7 +466,7 @@ python -m app.scripts.test_pipeline_direct app/data/artifacts/images/artifact_00
 Example:
 
 ```bash
-python -m app.scripts.test_pipeline_direct app/data/artifacts/images/artifact_001/01.jpg
+python -m app.scripts.test_pipeline_direct app/data/artifacts/images/artifact_001/image-asset.jpg
 ```
 
 ---
